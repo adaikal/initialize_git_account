@@ -9,8 +9,8 @@ install_git() {
 		echo "not installed"
 		echo "installing git..."
 		
-		apt update
-		apt install -y git
+		sudo apt update
+		sudo apt install -y git
 
 		config_git "$USERNAME" "$USERMAIL"
 	
